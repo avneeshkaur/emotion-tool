@@ -80,15 +80,14 @@ emotion-tool/
 
 ## 📹 Optional Demo Video
 
-If required, a short walkthrough video can be added here:
-🔗 (Add Loom link here)
+A short walkthrough video: https://www.loom.com/share/3b965c97b7494d59abbe740ff57f181d?sid=85f6ff5f-c7de-49fd-924b-210891b14236
 
 ## 📩 Submission Checklist
 
 - ✅ Code pushed to GitHub
 - ✅ Live hosted version available
 - ✅ README with setup instructions and explanation
-- ⬜ Loom video (optional)
+- ⬜ Loom video 
 
 ---
 
