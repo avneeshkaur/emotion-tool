@@ -8,12 +8,18 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
+  const API_URL =
+  window.location.hostname === 'localhost'
+    ? 'http://localhost:8000/analyze'
+    : 'https://emotion-tool.onrender.com/analyze';
+
+
   const handleSubmit = async () => {
     setLoading(true)
     setResult(null)
     setError('')
     try {
-      const response = await axios.post('http://localhost:8000/analyze', { text })
+      const response = await axios.post(API_URL, { text })
       setResult(response.data)
     } catch (err) {
       setError('Something went wrong!')
